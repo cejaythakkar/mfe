@@ -6,5 +6,5 @@ export default () => {
   useEffect(() => {
     mountMarketingApp(ref.current);
   }, []);
-  return <div ref={ref}></div>;
+  return (<div ref={ref}></div>);
 };
